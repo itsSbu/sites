@@ -1,0 +1,220 @@
+.banner {
+  height: 65px;
+  width:100%;
+  background-color:rgb(201, 45, 6);
+  text-align: left;
+  font-size: 10px;
+  color: white;
+ }
+ 
+ /* Style the navigation bar */
+ .navbar {
+   width: 100%;
+   height: 50%;
+   background-color:black;
+   font-size: 15px;
+ }
+ 
+ /* Navbar links */
+ .navbar a {
+   float: left;
+   position:relative;
+   left: -65px;
+   text-align: center;
+   padding: 20px;
+   color: white;
+   text-decoration: none;
+   font-size: 12px;
+ }
+ 
+ /* Navbar links on mouse-over */
+ .navbar a:hover {
+   background-color:rgb(231, 8, 8);
+ }
+ 
+ /* Current/active navbar link */
+ .active {
+   background-color:rgb(201, 45, 6);
+ }
+ /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+ @media screen and (max-width: 500px) {
+   .navbar a {
+     float: none;
+     display: block;
+   }
+ }
+ 
+ #logo
+ {
+   float: left;
+   display:inline-block;
+   border-radius: 10px 20px 10px 20px;
+   padding:8px;
+   height: 55px;
+   margin-bottom: 1%;
+ }
+
+.bg {
+  /* africajpg.jpg*/
+  background-image: url("africajpg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  background-color: black;
+
+
+}
+p{
+  color:aliceblue;
+  font-size: 25px;
+
+}
+.animals{
+width: 100%;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+ /* Style all font awesome icons */
+ .fa {
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+/* Instagram */
+.fa-instagram {
+  color: white;
+}
+
+/* Google*/
+.fa-google {
+  color:white;
+}
+
+
+.footer{
+background-color: #555;
+height: 400px;
+font-size: 20px;
+text-align: center;
+word-spacing: 60px;
+}
+
+.txt{
+  word-spacing: 40px;
+  font-size: 20px;
+}
+
+.mail{
+  font-size: 20px;
+  word-spacing: 20px;
+}
+.mail2{
+  font-size: 20px;
+  position: relative;
+  right: -50px;
+}
+.mail3{
+  font-size: 20px;
+  position: relative;
+  left: -95px;
+  word-spacing: 20px;
+}
+.location{
+  font-size: 20px;
+  position: relative;
+  left: -40px;
+  word-spacing: 10px;
+}

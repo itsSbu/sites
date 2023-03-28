@@ -1,0 +1,200 @@
+.banner {
+    width:100%;
+    height: 50px;
+    background-color:rgb(201, 45, 6);
+    text-align: left;
+    
+    color: white;
+   }
+   
+   /* Style the navigation bar */
+   .navbar {
+     width: 100%;
+     height: 50%;
+     background-color:black;
+     overflow: auto;
+   }
+   
+   /* Navbar links */
+   .navbar a {
+     float: right;
+     text-align: center;
+     padding: 20px;
+     color: white;
+     text-decoration: none;
+     font-size: 20px;
+   }
+   
+   /* Navbar links on mouse-over */
+   .navbar a:hover {
+     background-color:rgb(231, 8, 8);
+   }
+   
+   /* Current/active navbar link */
+   .active {
+     background-color:rgb(201, 45, 6);
+   }
+   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+   @media screen and (max-width: 500px) {
+     .navbar a {
+       float: none;
+       display: block;
+     }
+   }
+   
+   #logo
+   {
+     float: left;
+     display:inline-block;
+     border-radius: 10px 20px 10px 20px;
+     padding:8px;
+     height: 55px;
+     margin-bottom: 1%;
+   }
+   
+   body{
+     background-color: black;
+   
+   }
+
+   p{
+    text-align: right;
+     font-size: 25px;
+    
+   }
+
+   .animals{
+   width: 70%;
+   
+   }
+   .banner {
+    height: 65px;
+    width:100%;
+    background-color:rgb(201, 45, 6);
+    text-align: left;
+    font-size: 10px;
+    color: white;
+   }
+   
+   /* Style the navigation bar */
+   .navbar {
+     width: 100%;
+     height: 30%;
+     background-color:black;
+     font-size: 15px;
+   }
+   
+   /* Navbar links */
+   .navbar a {
+     float: left;
+     text-align: center;
+     padding: 20px;
+     color: white;
+     text-decoration: none;
+     font-size: 12px;
+   }
+   
+   /* Navbar links on mouse-over */
+   .navbar a:hover {
+     background-color:rgb(231, 8, 8);
+   }
+   
+   /* Current/active navbar link */
+   .active {
+     background-color:rgb(201, 45, 6);
+   }
+   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+   @media screen and (max-width: 500px) {
+     .navbar a {
+       float: none;
+       display: block;
+     }
+   }
+   
+   #logo
+   {
+     float: left;
+     display:inline-block;
+     border-radius: 10px 20px 10px 20px;
+     padding:8px;
+     height: 55px;
+     margin-bottom: 1%;
+   }
+   * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height: 20px;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(201, 45, 6);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(231, 8, 8);
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+  .column {
+    width: 100%;
+  }
+
+  .instagram {
+  width: 50px;
+
+}
+.facebook {
+width: 50px;
+position: relative;
+left: -550;
+}
+
+  
+
+footer{
+  height: 250px;
+  background-color: grey;
+}
